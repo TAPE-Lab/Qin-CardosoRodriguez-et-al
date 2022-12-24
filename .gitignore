@@ -1,0 +1,5 @@
+.DS_Store
+
+CyTOF/*/data/*
+CyTOF/*/output/*
+CyTOF/*/preprocessed_data/*
