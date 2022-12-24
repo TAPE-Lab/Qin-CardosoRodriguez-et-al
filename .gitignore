@@ -1,5 +1,7 @@
 .DS_Store
-
-CyTOF/*/data/*
+*.pyc
 CyTOF/*/output/*
+CyTOF/*/raw_data/*
 CyTOF/*/preprocessed_data/*
+CyTOF/ref/ComplexHeatmap.ipynb
+CyTOF/ref/All-in-one_minimal.ipynb

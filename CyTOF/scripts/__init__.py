@@ -4,23 +4,39 @@ from matplotlib.pyplot import bar
 import pandas as pd
 import os
 
-sample_folder = "/Users/xiaoqin/Dropbox/UCL/Experiments/CyTOF/Signal Perturbation/Signal Perturbation - Analysis"
+sample_folder = "/Users/xiaoqin/Dropbox/TAPE LAB/Manuscripts/Qin & Cardoso Rodriguez et al/SupplementaryMaterials/Qin-CardosoRodriguez-et-al_analysis/CyTOF"
 os.chdir(sample_folder)
 
 # Non-marker
 non_marker = pd.read_csv("./ref/non_marker.txt", header=None)[0].tolist()
 
 # Epithelial cell-type markers
-# cell_type_markers = pd.read_csv("./ref/epi_cell_type_markers.csv", header=None)[
-#     0
-# ].tolist()
+cell_type_markers = pd.read_csv("./ref/epi_cell_type_markers.csv", header=None)[
+    0
+].tolist()
 
 # Colour palette
 colours_genotype = {
     "WT": "#87A076",
     "A": "#576441",
     "K": "#9B7F3C",
+    "KP": "#8B6240",
     "AK": "#6C8DC6",
+    "AKP": "#436DB8",
+}
+
+colours_media = {
+    "Ctrl": "#E6DCCB",
+    "WNT3A": "#6E925E",
+    "EGF": "#DBC636",
+    "WNT5A": "#00663A",
+    "SEMA3A": "#008996",
+    "TGFB2": "#931651",
+    "TGFB1": "#932192",
+    "IGF1": "#7A80FF",
+    "NRG1": "#BD911E",
+    "EREG": "#FEAA11",
+    "OPN": "#005392",
 }
 
 colours_ligand = {
@@ -42,16 +58,4 @@ colours_inhibitor = {
     "SIS3": "#AE9576",
 }
 
-# colours_inhibitor = {
-#     "Ctrl": "#E6DCCB",
-#     "CA3": "#AE9576",
-#     "CHIR99021": "#93ADB4",
-#     "Dasatinib": "#2F76C5",
-#     "ICG001": "#2EB0B2",
-#     "GDC0941": "#0055C5",
-#     "PF573228": "#70A2C5",
-#     "SIS3": "#797979",
-#     "Trametinib": "#D76144",
-# }
-
-colours = colours_genotype | colours_ligand | colours_inhibitor
+colours = colours_genotype | colours_media | colours_ligand | colours_inhibitor
