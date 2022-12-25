@@ -15,7 +15,7 @@ cell_type_markers = pd.read_csv("./ref/epi_cell_type_markers.csv", header=None)[
     0
 ].tolist()
 
-# Colour palette
+# CellChat Follow-up
 colours_genotype = {
     "WT": "#87A076",
     "A": "#576441",
@@ -39,6 +39,7 @@ colours_media = {
     "OPN": "#005392",
 }
 
+# Signal Perturbation
 colours_ligand = {
     "Ctrl": "#E6DCCB",
     "WNT3A": "#6E925E",
@@ -58,4 +59,37 @@ colours_inhibitor = {
     "SIS3": "#AE9576",
 }
 
-colours = colours_genotype | colours_media | colours_ligand | colours_inhibitor
+# WNT-EGF Competition
+colours_EGF_WNT_ratio = {  # RdYlGn
+    "--": "#E6DCCB",  # Control
+    "-": "#DBC636",  # EGF only
+    "0.0": "#6E925E",  # WNT only
+    "0.1": "#1a9850",
+    "0.25": "#66bd63",
+    "0.4": "#a6d96a",
+    "0.5": "#d9ef8b",
+    "1.0": "#ffffbf",
+    "2.5": "#fee08b",
+    "5.0": "#fdae61",
+}
+
+colours_culture = {
+    "WNT-0_EGF-0": "#E6DCCB",
+    "WNT-10_EGF-0": "#ACE895",
+    "WNT-20_EGF-0": "#A0D78B",
+    "WNT-50_EGF-0": "#84B273",
+    "WNT-100_EGF-0": "#6E925E",
+    "EGF-10_WNT-0": "#FFF180",
+    "EGF-25_WNT-0": "#E7DA79",
+    "EGF-40_WNT-0": "#CFCD58",
+    "EGF-50_WNT-0": "#DBC636",
+}
+
+colours = (
+    colours_genotype
+    | colours_media
+    | colours_ligand
+    | colours_inhibitor
+    | colours_EGF_WNT_ratio
+    | colours_culture
+)
