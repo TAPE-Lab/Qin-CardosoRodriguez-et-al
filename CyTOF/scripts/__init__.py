@@ -23,6 +23,7 @@ colours_genotype = {
     "KP": "#8B6240",
     "AK": "#6C8DC6",
     "AKP": "#436DB8",
+    "Fib": "red"
 }
 
 colours_media = {
@@ -37,6 +38,108 @@ colours_media = {
     "NRG1": "#BD911E",
     "EREG": "#FEAA11",
     "OPN": "#005392",
+    # WENR Permutation
+    "W": "#6E925E",
+    "E": "#DBC636",
+    "N": "#BAA18B",
+    "R": "#71B3E7",
+    "ENR": "#FDC950",
+    "WNR": "#41512E",
+    "WER": "#348794",
+    "WEN": "#207176",
+    "WENR": "#E48C2AFF",
+}
+
+colours_format = {"monoculture": "#079601", "co-culture": "#FF2600"}
+
+colours_signal_cluster = {
+    # Control
+    "WT_Ctrl": "#E6DCCB",
+    # WNT ON - extrinsic EGF
+    "WT_W": "red",
+    "WT_WNR": "red",
+    # WNT ON + intrinsic beta-cat (A)
+    "A_W": "red",
+    "A_WNR": "red",
+    "A_WER": "red",
+    "A_WEN": "red",
+    "A_WENR": "red",
+    # Equilibrium: WT - WNT3A
+    "WT_E": "#9F3F2D",
+    "WT_N": "#9F3F2D",
+    "WT_R": "#9F3F2D",
+    "WT_ENR": "#9F3F2D",
+    # Equilibrum: WT + W + E
+    "WT_WEN": "#9F3F2D",
+    "WT_WER": "#9F3F2D",
+    "WT_WENR": "#9F3F2D",
+    # Equilibrium: shAPC - WNT3A
+    "A_Ctrl": "#9F3F2D",
+    "A_E": "#9F3F2D",
+    "A_N": "#9F3F2D",
+    "A_R": "#9F3F2D",
+    "A_ENR": "#9F3F2D",
+    # KRAS ON, WNT OFF, Beta-Cat OFF
+    "K_Ctrl": "#426EB8",
+    "K_E": "#426EB8",
+    "K_N": "#426EB8",
+    "KP_Ctrl": "#426EB8",
+    "KP_E": "#426EB8",
+    "KP_N": "#426EB8",
+    # KRAS ON, WNT ON, Beta-Cat OFF
+    "K_W": "#464865",
+    "K_WEN": "#464865",
+    "KP_W": "#464865",
+    "KP_WEN": "#464865",
+    ###
+    # KRAS + RS1 / shAPC (Cancer)
+    # Intrinsic >> Extrinsic
+    ###
+    "K_R": "blue",
+    "K_ENR": "blue",
+    "K_WNR": "blue",
+    "K_WER": "blue",
+    "K_WENR": "blue",
+    "KP_R": "blue",
+    "KP_ENR": "blue",
+    "KP_WNR": "blue",
+    "KP_WER": "blue",
+    "KP_WENR": "blue",
+    "AK_Ctrl": "blue",
+    "AK_W": "blue",
+    "AK_E": "blue",
+    "AK_N": "blue",
+    "AK_R": "blue",
+    "AK_ENR": "blue",
+    "AK_WNR": "blue",
+    "AK_WER": "blue",
+    "AK_WEN": "blue",
+    "AK_WENR": "blue",
+    "AKP_Ctrl": "blue",
+    "AKP_W": "blue",
+    "AKP_E": "blue",
+    "AKP_N": "blue",
+    "AKP_R": "blue",
+    "AKP_ENR": "blue",
+    "AKP_WNR": "blue",
+    "AKP_WER": "blue",
+    "AKP_WEN": "blue",
+    "AKP_WENR": "blue",
+    # ---
+    # co-culture control
+    # ---
+    "WT-Fib_Ctrl": "#E6BFA3",
+    # co-culture -E
+    "WT-Fib_W": "pink",
+    "WT-Fib_N": "pink",
+    "WT-Fib_R": "pink",
+    "WT-Fib_WNR": "pink",
+    # co-culture + E
+    "WT-Fib_ENR": "salmon",
+    "WT-Fib_E": "salmon",
+    "WT-Fib_WER": "salmon",
+    "WT-Fib_WEN": "salmon",
+    "WT-Fib_WENR": "salmon",
 }
 
 # Signal Perturbation
@@ -92,4 +195,6 @@ colours = (
     | colours_inhibitor
     | colours_EGF_WNT_ratio
     | colours_culture
+    | colours_signal_cluster
+    | colours_format
 )
