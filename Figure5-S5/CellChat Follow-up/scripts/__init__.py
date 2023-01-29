@@ -4,14 +4,14 @@ from matplotlib.pyplot import bar
 import pandas as pd
 import os
 
-sample_folder = "/Users/xiaoqin/Dropbox/TAPE LAB/Manuscripts/Qin & Cardoso Rodriguez et al/SupplementaryMaterials/Qin-CardosoRodriguez-et-al_analysis/CyTOF"
+sample_folder = "/Users/xiaoqin/Dropbox/TAPE LAB/Manuscripts/Qin & Cardoso Rodriguez et al/SupplementaryMaterials/Qin-CardosoRodriguez-et-al_analysis"
 os.chdir(sample_folder)
 
 # Non-marker
-non_marker = pd.read_csv("./ref/non_marker.txt", header=None)[0].tolist()
+non_marker = pd.read_csv("./Data/non_marker.txt", header=None)[0].tolist()
 
 # Epithelial cell-type markers
-cell_type_markers = pd.read_csv("./ref/epi_cell_type_markers.csv", header=None)[
+cell_type_markers = pd.read_csv("./Data/epi_cell_type_markers.csv", header=None)[
     0
 ].tolist()
 
@@ -23,7 +23,7 @@ colours_genotype = {
     "KP": "#8B6240",
     "AK": "#6C8DC6",
     "AKP": "#436DB8",
-    "Fib": "red"
+    "Fib": "red",
 }
 
 colours_media = {
