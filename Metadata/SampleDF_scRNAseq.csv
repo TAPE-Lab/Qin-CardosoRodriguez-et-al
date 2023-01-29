@@ -20,6 +20,6 @@
 18,15_AKP-Fib,cocultAKPFib,1,AKP,1,unsorted,0,0,1
 19,16_AKP-Mac-Fib,cocultAKPMacFib,1,AKP,1,unsorted,1,0,1
 20,20_WT-WENR,WTorg_WENR,1,WT,0,,0,1,2
-21,17_Mac,,0,,0,,1,0,1
-22,18_Fib,,0,,1,unsorted,0,0,1
-23,19_Mac-Fib,,0,,1,unsorted,1,0,1
+21,17_Mac,monomac,0,,0,,1,0,1
+22,18_Fib,monoFib,0,,1,unsorted,0,0,1
+23,19_Mac-Fib,cocultMacFib,0,,1,unsorted,1,0,1
