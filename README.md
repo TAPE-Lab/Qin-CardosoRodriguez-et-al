@@ -6,7 +6,7 @@ This repository contains Python and R scripts used to generate the figures prese
 
 An overview of all the samples generated in this study can be found at: <https://github.com/TAPE-Lab/Qin-CardosoRodriguez-et-al/blob/main/Metadata/ExperimentalConditions.html>, while the folders in this repository are organised by figures. More specifically:
 
-- `/Figure1-S1` - scRNA-seq analysis.
+- `/Figure1-S1` - scRNA-seq - data integration and cell-type-specific analysis.
 
   - Notebooks split by cell-types.
     - `Epithelia.ipynb`: Figure 1C, Figure S1B.
@@ -15,30 +15,30 @@ An overview of all the samples generated in this study can be found at: <https:/
     - `IntegrationDR.ipynb`: Figure 1B.
   - TODO (FC): a note book for data preprocessing and integration?
 
-- `/Figure2-S2` - scRNA-seq analysis.
+- `/Figure2-S2` - scRNA-seq - epithelia focus analysis (incl. clustering, gene signature analysis, differential abundance analysis, entropy analysis, and RNA velocity analysis).
 
   - Notebooks split by analysis.
     - `IntegrationDR.ipynb`: Figure 2A, Figure S2B(?).
     - `Entropy.ipynb`: Figure 2B.
-    - `ClustersDE.ipynb`: Figure 2C, Figure 2D.
-    - `DA.ipynb`: Figure 2E.
+    - `DA.ipynb`: Figure 2C-E.
+    - `ClustersDE.ipynb`: Figure 2F.
     - `Signatures.ipynb`: Figure S2A.
     - `Velocity.ipynb`: Figure S2C, S2D.
     - TODO (FC): could you please double-check and make sure my references to the figures are correct? Thanks.
 
-- `/Figure3_4-S3_S4` - Mass cytometry (MC) analysis.
+- `/Figure3_4-S3_S4` - Mass cytometry (MC) - 'WENR Permutation'.
 
   - Notebooks split by experiment.
     - `/WENR Permutation`: Figures 3 & 4, S3 & S4
     - `/WNT-EGF Competition`: Figure S4C-F.
 
-- `/Figure5-S5` - scRNA-seq & MC analsis.
+- `/Figure5-S5` - scRNA-seq & MC - cell-cell communication analysis, i.e., CellChat analysis & 'CellChat Follow-up'.
 
   - Notebooks split by experiment.
     - `CCommunications.ipynb`: scRNA-seq analysis for Figure 5A, Figure 5B, Figure S5A-C.
     - `/CellChat Follow-up`: MC analysis for Figure 5D, Figure S5D-F.
 
-- `/Figure6-S6` - MC anlaysis.
+- `/Figure6-S6` - MC - Cue-signal-response array, i.e., 'Signal Perturbation'.
 
   - Notebooks for Figure 6 and Figure S6.
 
