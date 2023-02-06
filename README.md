@@ -1,3 +1,5 @@
+# A Functional Single-cell Landscape of Colonic Stem Cell Polarisation
+
 [WORK IN PROGRESS]
 
 This repository contains Python and R scripts used to generate the figures presented in Qin & Cardoso Rodriguez et. al., _A Functional Single-cell Landscape of Colonic Stem Cell Polarisation_ (DOI to be updated).
