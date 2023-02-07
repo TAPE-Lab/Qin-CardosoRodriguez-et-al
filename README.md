@@ -4,7 +4,7 @@
 
 This repository contains Python and R scripts used to generate the figures presented in Qin & Cardoso Rodriguez et. al., _A Functional Single-cell Landscape of Colonic Stem Cell Polarisation_ (DOI to be updated).
 
-# Overview
+## Overview
 
 An overview of all the samples generated in this study can be found at: <https://github.com/TAPE-Lab/Qin-CardosoRodriguez-et-al/blob/main/Metadata/ExperimentalConditions.html>, while the folders in this repository are organised by figures. More specifically:
 
@@ -46,8 +46,8 @@ An overview of all the samples generated in this study can be found at: <https:/
 
 - `/Figure7` - Single-cell valley-ridge (VR) landscape.
 
-# Data Availability
+## Data Availability
 
-- Raw scRNA-seq data has been deposited in the sequence read archive (SRA) under the accession PRJNA883610.
+- Raw scRNA-seq data has been deposited in the sequence read archive (SRA) under the accession number PRJNA883610.
 - The integrated Seurat object of the scRNA-seq experiment, the integrated dataframes for MC analysis, and the Houdini project files can be accessed at Zenodo (<https://doi.org/10.5281/zenodo.7586958>).
-- Raw and processed MC data and illustrations are available as a Community Cytobank project (<https://community.cytobank.org/cytobank/experiments\#\linebreak> project-id=1460).
+- Raw and processed MC data and illustrations are available as a Community Cytobank project (<https://community.cytobank.org/cytobank/experiments\project-id=1460>).
