@@ -1,0 +1,1 @@
+This directory emulates the eventual Zenodo submission. Once published, links referencing the files whithin will have to be updated to point to the Zenodo repository.

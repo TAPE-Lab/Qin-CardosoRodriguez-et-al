@@ -3,3 +3,4 @@
 */*/output/*.csv
 */*/raw_data/*
 */*/preprocessed_data/*
+ZenodoRepo/*.rds
