@@ -50,4 +50,4 @@ An overview of all the samples generated in this study can be found at: <https:/
 
 - Raw scRNA-seq data has been deposited in the sequence read archive (SRA) under the accession number PRJNA883610.
 - The integrated Seurat object of the scRNA-seq experiment, the integrated dataframes for MC analysis, and the Houdini project files can be accessed at Zenodo (<https://doi.org/10.5281/zenodo.7586958>).
-- Raw and processed MC data and illustrations are available as a Community Cytobank project (<https://community.cytobank.org/cytobank/experiments\project-id=1460>).
+- Raw and processed MC data and illustrations are available as a Community Cytobank project (<https://community.cytobank.org/cytobank/experiments#project-id=1460>).
