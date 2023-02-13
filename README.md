@@ -1,4 +1,4 @@
-# A Functional Single-cell Landscape of Colonic Stem Cell Polarisation
+# A Single-cell Perturbation Landscape of Colonic Stem Cell Polarisation
 
 [WORK IN PROGRESS]
 
@@ -6,7 +6,7 @@ This repository contains Python and R scripts used to generate the figures prese
 
 ## Overview
 
-An overview of all the samples generated in this study can be found at: <https://github.com/TAPE-Lab/Qin-CardosoRodriguez-et-al/blob/main/Metadata/ExperimentalConditions.html>, while the folders in this repository are organised by figures. More specifically:
+An overview of all the samples generated in this study can be found at: <https://github.com/TAPE-Lab/Qin-CardosoRodriguez-et-al/blob/main/Metadata/ExperimentalConditions.ipynb>, while the folders in this repository are organised by figures. More specifically:
 
 - `/Figure1-S1` - scRNA-seq - data integration and cell-type-specific analysis.
 
@@ -48,6 +48,7 @@ An overview of all the samples generated in this study can be found at: <https:/
 
 ## Data Availability
 
-- Raw scRNA-seq data has been deposited in the sequence read archive (SRA) under the accession number PRJNA883610.
-- The integrated Seurat object of the scRNA-seq experiment, the integrated dataframes for MC analysis, and the Houdini project files can be accessed at Zenodo (<https://doi.org/10.5281/zenodo.7586958>).
-- Raw and processed MC data and illustrations are available as a Community Cytobank project (<https://community.cytobank.org/cytobank/experiments#project-id=1460>).
+- Raw scRNA-seq data and BioSample metadata have been deposited at Sequence Read Archive (SRA) (<https://www.ncbi.nlm.nih.gov/bioproject/PRJNA883610>).
+- Raw and processed MC data are available as a Community Cytobank project(<<https://community.cytobank.org/cytobank/experiments#> project-id=1460>).
+- Aligned scRNA-seq count matrices, spliced/unspliced RNA count matrices, integrated Seurat objects, integrated MC dataframes, and
+  Houdini project files can be accessed at Zenodo (<https://doi.org/10.5281/zenodo.7586958>).
