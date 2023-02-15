@@ -1,6 +1,10 @@
 .DS_Store
 *.pyc
-*/*/output/*.csv
 */*/raw_data/*
 */*/preprocessed_data/*
-ZenodoRepo/*.rds
+ZenodoRepo/
+On Request/
+*.h5ad
+# */*/output/*.csv
+Figure1-S1-S2/data/README.md
+Figure4-S5/data/README.md
