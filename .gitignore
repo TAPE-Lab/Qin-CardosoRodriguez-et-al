@@ -3,7 +3,7 @@
 */*/raw_data/*
 */*/preprocessed_data/*
 ZenodoRepo/
-On Request/
+OnRequest/
 *.h5ad
 # */*/output/*.csv
 Figure1-S1-S2/data/README.md
