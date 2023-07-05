@@ -18,11 +18,14 @@ More specifically:
   - `emdPCA_DE_Epithelia.ipynb`: Figure 1C, Figure S1B.
   - `emdPCA_DE_Fibroblasts.ipynb`: Figure 1C, Figure S1C.
   - `emdPCA_DE_Mcrophages.ipynb`: Figure 1C, Figure S1D.
-  - `Main_INTepi.ipynb`: Figure 1D-I, Figure S2B-E.
-  - `Velocity.ipynb`: Figure 1E, Figure S2D.
+  - `Main_INTepi.ipynb`: Figure 1D-I.
+  - `Velocity.ipynb`: Figure 1E, Figure S1H-I.
+  - `fib-signatures.ipynb`: Figure S1B.
+  - `cellchat_cd34-focus.ipynb`: Figure S1C.
 
 - `/Figure2_S2` - scRNA-seq - gene signature correlation analysis and integrative analysis with published human data.
   - `Signatures.ipynb`: Figure 2.
+  - X: Figure S2.
 
 - `/Figure3-4_S3-S4` - Mass cytometry (MC) - 'WENR Permutation'.
   - Notebooks split by experiment.
