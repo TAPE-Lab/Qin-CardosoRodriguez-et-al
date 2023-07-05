@@ -29,16 +29,16 @@ More specifically:
 
 - `/Figure3-4_S3-S4` - Mass cytometry (MC) - 'WENR Permutation'.
   - Notebooks split by experiment.
-    - `/WENR Permutation`: Figures 2 & 3, S3 & S4
+    - `/WENR Permutation`: Figures 3 & 4, S3 & S4
     - `/WNT-EGF Competition`: Figure S4C-F.
 
 - `/Figure5_S5` - scRNA-seq & MC - cell-cell communication analysis, i.e., CellChat analysis & 'CellChat Follow-up'.
   - Notebooks split by experiment.
-    - `CCommunications.ipynb`: scRNA-seq analysis for Figure 4A, Figure 4B, Figure S5A-C.
-    - `/CellChat Follow-up`: MC analysis for Figure 4D, Figure S5D-F.
+    - `CCommunications.ipynb`: scRNA-seq analysis for Figure 5A, Figure 5B, Figure S5A-C.
+    - `/CellChat Follow-up`: MC analysis for Figure 5D, Figure S5D-H.
 
 - `/Figure6_S6` - MC - Cue-signal-response array, i.e., 'Signal Perturbation'.
-  - Notebooks for Figure 5 and Figure S5.
+  - Notebooks for Figure 6 and Figure S6.
 
 - `/Figure7_S7` - Single-cell valley-ridge (VR) landscape.
 
