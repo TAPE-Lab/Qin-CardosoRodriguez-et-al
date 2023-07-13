@@ -25,7 +25,9 @@ More specifically:
 
 - `/Figure2_S2` - scRNA-seq - gene signature correlation analysis and integrative analysis with published human data.
   - `Signatures.ipynb`: Figure 2.
-  - X: Figure S2.
+  - X: Figure S2A.
+  - `CMS.ipynb`: Figure S2C-D.
+  - X: Figure S2E-F.
 
 - `/Figure3-4_S3-S4` - Mass cytometry (MC) - 'WENR Permutation'.
   - Notebooks split by experiment.
