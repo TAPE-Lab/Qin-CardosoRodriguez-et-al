@@ -18,7 +18,7 @@ More specifically:
   - `emdPCA_DE_Epithelia.ipynb`: Figure 1C, Figure S1B.
   - `emdPCA_DE_Fibroblasts.ipynb`: Figure 1C, Figure S1C.
   - `emdPCA_DE_Mcrophages.ipynb`: Figure 1C, Figure S1D.
-  - `Main_INTepi.ipynb`: Figure 1D-I.
+  - `Main_INTepi.ipynb`: Figure 1D-I, Figure S2E.
   - `Velocity.ipynb`: Figure 1E, Figure S1H-I.
   - `fib-signatures.ipynb`: Figure S1B.
   - `cellchat_cd34-focus.ipynb`: Figure S1C.
@@ -37,6 +37,7 @@ More specifically:
 - `/Figure5_S5` - scRNA-seq & MC - cell-cell communication analysis, i.e., CellChat analysis & 'CellChat Follow-up'.
   - Notebooks split by experiment.
     - `CCommunications.ipynb`: scRNA-seq analysis for Figure 5A, Figure 5B, Figure S5A-C.
+    - `CMS_CellChat.ipynb`: Figure S5D.
     - `/CellChat Follow-up`: MC analysis for Figure 5D, Figure S5D-H.
 
 - `/Figure6_S6` - MC - Cue-signal-response array, i.e., 'Signal Perturbation'.
