@@ -33,6 +33,7 @@ More specifically:
   - Notebooks split by experiment.
     - `/WENR Permutation`: Figures 3 & 4, S3 & S4
     - `/WNT-EGF Competition`: Figure S4C-F.
+    - `/Ligand Time-course`: Figure S4H-I.
 
 - `/Figure5_S5` - scRNA-seq & MC - cell-cell communication analysis, i.e., CellChat analysis & 'CellChat Follow-up'.
   - Notebooks split by experiment.
