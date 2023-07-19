@@ -37,7 +37,7 @@ More specifically:
 
 - `/Figure5_S5` - scRNA-seq & MC - cell-cell communication analysis, i.e., CellChat analysis & 'CellChat Follow-up'.
   - Notebooks split by experiment.
-    - `CCommunications.ipynb`: scRNA-seq analysis for Figure 5A, Figure 5B, Figure S5A-C.
+    - `CCommunications.ipynb`: scRNA-seq analysis for Figure 5A, Figure 5B, Figure S5A-C, Figure S4G.
     - `CMS_CellChat.ipynb`: Figure S5D.
     - `/CellChat Follow-up`: MC analysis for Figure 5D, Figure S5D-H.
 
