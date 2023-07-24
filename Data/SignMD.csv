@@ -1,0 +1,73 @@
+Name,GeneNumber,Context,Species,Reference
+lgr52MEX3A,91,CSC,Human,Alvarez et al. 2022
+lgr5MEX3A,6,CSC,Human,Alvarez et al. 2022
+Ssc1AYYAZ19,50,CSC,Mouse,Ayyaz et al. 2019
+Ssc2bAYYAZ19,50,CSC,Mouse,Ayyaz et al. 2019
+StemBUES22,9,CSC,Mouse,Bues et al. 2022
+ProgenstemDALERBA11,4,CSC,Human,Dalerba et al. 2011
+IscGREGORIEFF15,9,CSC,Mouse,Gregorieff et al. 2015
+IscHAN20,5,CSC,Mouse,Han et al. 2020
+IscLI17,38,CSC,Human,Li et al. 2017
+StemcorrLI17,7,CSC,Human,Li et al. 2017
+StemtaLI17,36,CSC,Human,Li et al. 2017
+hEphb2MERLOS11,28,CSC,Human,Merlos et al. 2011
+hLgr5MERLOS11,50,CSC,Human,Merlos et al. 2011
+IscMERLOS11,49,CSC,Mouse,Merlos et al. 2011
+Lgr5MERLOS11,103,CSC,Mouse,Merlos et al. 2011
+Lgr5MOURAO19,98,CSC,Mouse,Mourao et al. 2019
+munozLGR5MEX3A,139,CSC,Mouse,Muñoz et al. 2012
+StemtaPELKA21,79,CSC,Human,Pelka et al. 2021
+StemtasecPELKA21,94,CSC,Human,Pelka et al. 2021
+OWNdecluststem,24,CSC,Mouse,Qin & Cardoso et al. 2023
+OWNsigstem,6,CSC,Mouse,Qin & Cardoso et al. 2023
+eecMEX3A,13,Other,Human,Alvarez et al. 2022
+gobletMEX3A,6,Other,Human,Alvarez et al. 2022
+labelMEX3A,58,Other,Human,Alvarez et al. 2022
+mucsecMEX3A,13,Other,Human,Alvarez et al. 2022
+panethMEX3A,12,Other,Human,Alvarez et al. 2022
+secPROGMEX3A,11,Other,Human,Alvarez et al. 2022
+Ssc2aAYYAZ19,50,Other,Mouse,Ayyaz et al. 2019
+Ssc2AYYAZ19,50,Other,Mouse,Ayyaz et al. 2019
+ImmatureDALERBA11,5,Other,Human,Dalerba et al. 2011
+iCMS2,288,Other,Human,Joanito et al. 2022
+iCMS,58,Other,Human,Joanito et al. 2022
+cryptPROLIFMEX3A,269,proCSC,Human,Alvarez et al. 2022
+ki67MEX3A,62,proCSC,Human,Alvarez et al. 2022
+CancerDALERBA11,3,proCSC,Human,Dalerba et al. 2011
+ProlifDALERBA11,3,proCSC,Human,Dalerba et al. 2011
+TumourLI17,9,proCSC,Human,Li et al. 2017
+hProlifMERLOS11,176,proCSC,Human,Merlos et al. 2011
+ProlifMERLOS11,258,proCSC,Mouse,Merlos et al. 2011
+StemtaprolifPELKA21,89,proCSC,Human,Pelka et al. 2021
+OWNdecluststemO,24,proCSC,Mouse,Qin & Cardoso et al. 2023
+OWNsigprolif,4,proCSC,Mouse,Qin & Cardoso et al. 2023
+OWNsigstemO,9,proCSC,Mouse,Qin & Cardoso et al. 2023
+mex3aMEX3A,83,revCSC,Human,Alvarez et al. 2022
+revSCMEX3A,5,revCSC,Human,Alvarez et al. 2022
+Ssc2cAYYAZ19,50,revCSC,Mouse,Ayyaz et al. 2019
+mex3aBARRIGAMEX3A,93,revCSC,Mouse,Barriga et al. 2017
+RsBUES22,6,revCSC,Mouse,Bues et al. 2022
+epiHrCANELLAS22,92,revCSC,Human,Cañellas et al. 2022
+RegenscgGIL22,265,revCSC,Mouse,Gil Vazquez et al. 2022
+RepGREGORIEFF15,8,revCSC,Mouse,Gregorieff et al. 2015
+FetalHAN20,5,revCSC,Mouse,Han et al. 2020
+RevscHAN20,4,revCSC,Mouse,Han et al. 2020
+mustataFETALMEX3A,56,revCSC,Mouse,Mustata et al. 2013
+OWNdecluststemS,24,revCSC,Mouse,Qin & Cardoso et al. 2023
+OWNsigstemS,18,revCSC,Mouse,Qin & Cardoso et al. 2023
+FetalYUI18,1184,revCSC,Mouse,Yui et al. 2018
+yapMEX3A,8,Signalling,Mouse,Alvarez et al. 2022
+MapkGO,23,Signalling,Human,Gene Ontology term
+Pi3kGO,37,Signalling,Human,Gene Ontology term
+YapGREGORIEFF15,24,Signalling,Mouse,Gregorieff et al. 2015
+KrasGSEA,45,Signalling,Human,GSEA
+WntHAN20,7,Signalling,Mouse,Han et al. 2020
+YapHAN20,6,Signalling,Mouse,Han et al. 2020
+MapkKEGG,155,Signalling,Human,KEGG
+TgfbKEGG,80,Signalling,Human,KEGG
+TgfbLI17,33,Signalling,Human,Li et al. 2017
+WntLI17,18,Signalling,Human,Li et al. 2017
+WntMORRAL20,60,Signalling,Human,Morral et al. 2020
+Notch1MOURAO19,289,Signalling,Mouse,Mourao et al. 2019
+OWNwntreceptors,17,Signalling,Mouse,Qin & Cardoso et al. 2023
+YapWANG18,21,Signalling,Human,Wang et al. 2018
